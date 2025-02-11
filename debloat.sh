@@ -1,5 +1,5 @@
 sudo dnf install plasma-firewall vlc -y
-sudo dnf remove kontactinterface libreoffice-data kmahjongg kmines kpat kolourpaint skanpage kdeconnectd krdc krfb neochat firewall-config im-chooser mediawriter kmouth toolbox chrony abrt cups rpcbind xwaylandvideobridge dragon elisa-player -y
+sudo dnf remove kontactinterface libreoffice-data kmahjongg kmines kpat kolourpaint skanpage kdeconnectd krdc krfb neochat firewall-config im-chooser mediawriter kmouth toolbox chrony abrt cups rpcbind xwaylandvideobridge dragon elisa-player akonadi-server switcheroo-control @kde-pim @desktop-accessibility @libreoffice @kde-apps @kde-media -y
 sudo dnf autoremove -y
 sudo cp ./configs/timesyncd.conf /etc/systemd/
 
