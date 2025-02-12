@@ -1,4 +1,5 @@
 #!/usr/bin/bash
+sudo cp ./configs/dnf.conf /etc/dnf/
 sudo dnf install powertop nvtop htop btop rocm-smi fastfetch git gh unzip p7zip p7zip-plugins unrar libva-utils -y
 sudo dnf install https://mirrors.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm https://mirrors.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm -y
 sudo dnf config-manager setopt fedora-cisco-openh264.enabled=1
