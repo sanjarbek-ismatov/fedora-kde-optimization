@@ -7,4 +7,5 @@ sudo tlp start
 sudo grubby --update-kernel=ALL --args="amd_iommu=on"
 sudo grubby --update-kernel=ALL --args="iommu=pt"
 sudo grubby --update-kernel=ALL --args="lockdown=integrity"
+sudo grubby --update-kernel=ALL --args="selinux=0"
 sudo grub2-mkconfig -o /boot/grub2/grub.cfg
