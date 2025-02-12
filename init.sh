@@ -5,7 +5,9 @@ sudo dnf install https://mirrors.rpmfusion.org/free/fedora/rpmfusion-free-releas
 sudo dnf config-manager setopt fedora-cisco-openh264.enabled=1
 sudo dnf update @core -y
 sudo dnf4 update @core -y
-
+sudo dnf makecache
+sudo dnf4 makecache
+pkcon refresh
 # Firmware updates
 sudo fwupdmgr refresh --force
 sudo fwupdmgr get-devices # Lists devices that have available firmware updates.
