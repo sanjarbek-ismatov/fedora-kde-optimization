@@ -11,7 +11,7 @@ chsh -s /usr/bin/fish
 sudo chsh -s /usr/bin/fish
 
 # fastfetch as neofetch
-mkdir -p .config/fastfetch
+mkdir -p ~/.config/fastfetch
 cp /usr/share/fastfetch/presets/neofetch.jsonc ~/.config/fastfetch/config.jsonc
 
 # RPM Fusion
