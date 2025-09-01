@@ -5,7 +5,7 @@ sudo systemctl enable tlp
 sudo tlp start
 
 # TLP-switch
-git clone https://github.com/sanjarbek-ismatov/TLP-switch
+git clone -b sardor https://github.com/sanjarbek-ismatov/TLP-switch
 cd ./TLP-switch
 cmake -B build
 cmake --build build
