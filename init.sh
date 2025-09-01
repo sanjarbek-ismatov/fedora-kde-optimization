@@ -7,8 +7,8 @@ sudo cp ./configs/dnf.conf /etc/dnf/
 sudo dnf install powertop nvtop htop btop rocm-smi fastfetch git gh unzip p7zip p7zip-plugins unrar libva-utils fish -y
 
 # changing terminal from bash to fish
-chsh -s /usr/bin/fish
-sudo chsh -s /usr/bin/fish
+# chsh -s /usr/bin/fish
+# sudo chsh -s /usr/bin/fish
 
 # fastfetch as neofetch
 mkdir -p ~/.config/fastfetch
