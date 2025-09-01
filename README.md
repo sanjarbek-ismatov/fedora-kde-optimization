@@ -1,4 +1,4 @@
-# My setup scripts for Fedora KDE
+# My setup scripts for Fedora KDE (for my cousin)
 ## Usage
 ```bash
 git clone https://github.com/sanjarbek-ismatov/fedora-kde-optimization
